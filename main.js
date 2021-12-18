@@ -8,7 +8,7 @@ document.getElementsByClassName('_1G3Wr')[0].style = 'background: #F8F7F7'
 // remover icones e agregar outros
 let antiga = document.querySelectorAll('span')[14]
 var img = document.createElement('img');
-img.src = 'https://duckduckgo.com/assets/onboarding/bathroomguy/teaser-2@2x.png';
+img.src = 'https://github.com/CleoMenezes/WhatsApp-GNOME-theme/blob/main/assets/icons/menu.png';
 img.style = 'height: 24px'
 antiga.appendChild(img);
 document.querySelectorAll('svg')[3].style = 'display: none'
