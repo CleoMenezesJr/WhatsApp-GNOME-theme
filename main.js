@@ -8,9 +8,21 @@ document.getElementsByClassName('_1G3Wr')[0].style = 'background: #F8F7F7'
 // remover icones e agregar outros
 let antiga = document.querySelectorAll('span')[14]
 var img = document.createElement('img');
-img.src = 'https://github.com/CleoMenezes/WhatsApp-GNOME-theme/blob/main/assets/icons/menu.png';
-img.style = 'height: 24px'
+img.src = 'https://raw.githubusercontent.com/CleoMenezes/WhatsApp-GNOME-theme/4519a137d43071579dd73811643ef1719d2b0f7e/assets/icons/menu-large-symbolic.svg';
+img.style = 'height: 24px; width: 24px'
 antiga.appendChild(img);
 document.querySelectorAll('svg')[3].style = 'display: none'
-document.getElementsByClassName('_3Qnsr')[0].innerHTML = "Image Element Added.";
 
+let antige = document.querySelectorAll('span')[12]
+var img = document.createElement('img');
+img.src = 'https://raw.githubusercontent.com/CleoMenezes/WhatsApp-GNOME-theme/4519a137d43071579dd73811643ef1719d2b0f7e/assets/icons/subtitles-symbolic.svg';
+img.style = 'height: 24px; width: 24px'
+antige.appendChild(img);
+document.querySelectorAll('svg')[2].style = 'display: none'
+
+let antigi = document.querySelectorAll('span')[10]
+var img = document.createElement('img');
+img.src = 'https://raw.githubusercontent.com/CleoMenezes/WhatsApp-GNOME-theme/4519a137d43071579dd73811643ef1719d2b0f7e/assets/icons/navigate-symbolic.svg';
+img.style = 'height: 24px; width: 24px'
+antigi.appendChild(img);
+document.querySelectorAll('svg')[1].style = 'display: none'
